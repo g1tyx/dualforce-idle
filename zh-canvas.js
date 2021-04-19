@@ -63,6 +63,14 @@ var cnItems = {
     'Play': '玩了',
     'You are playing': '你玩了',
     'You made it': '你做到了',
+    'DualForce Idle!': '斗争模拟放置！',
+    'Welcome!': '欢迎!',
+    'bonuses.': '奖励.',
+    'Critical chance': '暴击几率',
+    'Critical multiplier': '暴击倍数',
+    'Multiplier': '倍数',
+    'New menu unlocked!': '新菜单解锁!',
+    'You just unlocked': '你解锁了',
     '': '',
     '': '',
     '': '',
@@ -78,6 +86,23 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    '': '',
+    'your progress, but get some cool permanent bonuses.': '你的进度，但得到一些酷的永久奖励。',
+    'In short about this game, it\'s Idle + Tower Defense,': '简单来说，这款游戏是“放置+塔防”，',
+    'Welcome to the beta test of': '欢迎来到的beta测试关于',
+    'Got it!': '知道了！',
+    'Hey, glad to see you here!': '',
     'Game': '游戏',
     'Special Stats': '特殊属性',
     'Spawn duration': '生产持续时间',
@@ -240,7 +265,7 @@ var cnPostfix = {
 
 //需排除的，正则匹配
 var cnExcludeWhole = [
-    /^\s*$/,
+    /^([\d\.,]+)$/,
 ];
 var cnExcludePostfix = [
 ]
