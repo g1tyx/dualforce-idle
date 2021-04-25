@@ -63,7 +63,7 @@ var cnItems = {
     'Play': '玩了',
     'You are playing': '你玩了',
     'You made it': '你做到了',
-    'DualForce Idle!': '斗争模拟放置！',
+    'DualForce Idle!': '左右互搏塔防放置！',
     'Welcome!': '欢迎!',
     'bonuses.': '奖励.',
     'Critical chance': '暴击几率',
